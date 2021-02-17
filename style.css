@@ -1,0 +1,50 @@
+body,html{
+	margin: 0;
+	height: 100%;
+	color: #fff;
+}
+
+.background-cover{
+	height: 100%;
+	background-image: url('bg.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: brightness(50%);
+}
+
+.cover-text{
+	width: 90%;
+	text-align: left;
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+	transform: translate(0,0);
+}
+
+.cover-text h1{
+	font-size: 100px;
+	font-family: poppins;
+	font-weight: bold;
+	letter-spacing: 3px;
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 700px){
+	.cover-text h1{
+		font-size: 50px;
+	}
+}
+
+.cover-text hr{
+	width: 150px;
+	border: none;
+	border-top: 2px solid #fff;
+	color: #fff;
+}
+
+.cover-text p{
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 20px;
+	line-height: 2;
+}
