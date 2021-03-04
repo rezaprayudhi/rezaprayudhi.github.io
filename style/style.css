@@ -30,6 +30,10 @@ h1{
     font-family: var(--head2);
 }
 
+h1 span{
+    font-size : 50pt;
+}
+
 h2{
     font-size: 35pt;
     font-family: var(--head2);
@@ -60,6 +64,10 @@ p{
 @media screen and (max-width: 600px){
     h1{
         font-size: 45pt;
+    }
+    
+    h1 span{
+        font-size : 30pt;
     }
     
     h2{
