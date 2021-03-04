@@ -21,17 +21,27 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
 </head>
 <body>
     <div id="main">
         <div class="container">
             <div class="child-1">
                 <div class="content">
-                    <h1>Hello there, <br>I'm Reza.</h1>
+                    <h1>Hello there, <br><span id="typed"></span></h1>
                     <hr>
                 </div>
             </div>
-
+            <script>
+                var typed = new Typed('#typed', {
+                  strings: [
+                      "I'm Reza."
+                  ],
+                    typeSpeed : 50,
+                    loop : false
+                });
+            </script>
             <div class="child-2">
                 <div class="content">
                     <a href="#about-me">About Me</a><br>
