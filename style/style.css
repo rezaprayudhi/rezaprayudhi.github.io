@@ -371,16 +371,31 @@ button{
     cursor: pointer;
 }
 
+.subheader{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.subheader h4{
+    margin-bottom: 0px;
+}
+
+.subheader hr{
+    border-top: var(--dark) 4px solid;
+    width: 70px;
+}
+
 #portfolio .container .child-2{
     display: grid;
     grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
     gap: 20px;
 }
 
 #portfolio .container .child-2 .box{
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
